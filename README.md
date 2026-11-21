@@ -7,7 +7,7 @@ with surprisal from two pretrained LLMs (XGLM-1.7B, Gemma-3).
 
 This README is written so that anyone — not just someone already familiar
 with the project — can clone/copy the repo and get it running. It is split
-into two tiers:
+into two tiers:----
 
 - **Tier 1** — verify the paper's reported numbers from already-computed
   data. Takes a few minutes, no GPU needed. Do this first.
