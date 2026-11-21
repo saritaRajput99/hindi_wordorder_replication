@@ -1,0 +1,22 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large / regenerable artifacts — see README "Large files not strictly
+# required for Tier 1" section. Each of these exceeds (or helps the repo
+# exceed) GitHub's 100MB per-file limit, and Tier 1 does not need them;
+# they are rebuilt via the Tier 2 pipeline described in the README.
+models/trigram/hindi_trigram.arpa
+models/trigram/hindi_trigram.binary
+models/trigram/hindi_trigram_srilm.arpa
+models/adaptive_lstm/lstm_model.pt
+data/external/
+data/processed/variants/variants.conllu
+data/processed/variants/variants_tokens.jsonl
+output/variants_final/variants.conllu
+output/variants_final/variants_tokens.jsonl
+
+# Duplicate staging copy for manual Google Drive upload (not source)
+drive_upload_full/

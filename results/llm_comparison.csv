@@ -1,0 +1,16 @@
+﻿Experiment,DO-fronted,IO-fronted
+Trigram only,76.0%,88.7%
+DL only,61.4%,65.3%
+IS score only,51.5%,52.0%
+Adaptive LSTM only,74.8%,88.5%
+XGLM only,88.2%,92.3%
+Gemma-3 only,78.0%,78.7%
+PCFG (tool) only,53.3%,49.3%
+Modelblocks only,52.1%,50.0%
+Dep-parser only,53.1%,53.2%
+All 5 (original paper),77.5%,92.2%
+LSTM → XGLM replacement,88.5%,94.1%
+LSTM → Gemma-3 replacement,79.4%,93.1%
+3 new tool features combined (PCFG+Modelblocks+Dep-parser),53.8%,52.8%
+"All 7 non-LLM (base+LSTM+PCFG+Modelblocks+Dep-parser, no XGLM/Gemma)",80.0%,93.1%
+Everything combined (base+LSTM+XGLM+Gemma+Modelblocks+Dep-parser),89.5%,95.1%

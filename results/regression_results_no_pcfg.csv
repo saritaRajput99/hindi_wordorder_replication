@@ -1,0 +1,7 @@
+order_type,feature,coef,pval,sig,accuracy
+DO-fronted,dl,-0.802,0.0,***,75.31
+DO-fronted,surprisal_trigram,0.6138,0.0,***,75.31
+DO-fronted,surprisal_adaptive_lstm,-2.1246,0.0,***,75.31
+IO-fronted,dl,-0.5822,0.0,***,90.13
+IO-fronted,surprisal_trigram,-1.5461,0.0,***,90.13
+IO-fronted,surprisal_adaptive_lstm,-3.5588,0.0,***,90.13

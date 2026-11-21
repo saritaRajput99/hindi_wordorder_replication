@@ -1,0 +1,33 @@
+# Hindi word-order replication — Python dependencies
+# Tested with Python 3.14.6; should work on Python 3.10+.
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# This file covers TIER 1 only (verifying results from already-computed
+# data/surprisal caches — regression, classification, report/figure
+# generation). It does NOT cover TIER 2 (full reproduction from raw text:
+# LSTM training, PCFG/trigram building, LLM scoring) — see README.md for
+# why those steps need separate, heavier environments (Colab/Kaggle/Java)
+# instead of this file.
+
+# --- core (required for every Tier 1 script) ---
+pandas>=2.0
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.3
+statsmodels>=0.14
+
+# --- plotting / report generation ---
+matplotlib>=3.7
+seaborn>=0.13
+
+
+
+# --- optional: only needed if re-scoring XGLM-1.7B / Gemma-3 from
+#     scratch (Tier 2) instead of using the cached JSON surprisal files
+#     in models/xglm/ and models/gemma-3b/. Requires a GPU in practice. ---
+# torch>=2.1
+# transformers>=4.40
+# accelerate>=0.30
+# bitsandbytes>=0.43

@@ -1,0 +1,11 @@
+{
+  "trigram_corpus_mean": 140.7165,
+  "trigram_variant_mean": 167.3042,
+  "dl_corpus_mean": 57.7366,
+  "dl_variant_mean": 78.6159,
+  "is_score_dist": {
+    "0": 53417,
+    "1": 13058,
+    "-1": 12390
+  }
+}

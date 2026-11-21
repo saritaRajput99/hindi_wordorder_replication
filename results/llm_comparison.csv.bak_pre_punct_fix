@@ -1,0 +1,10 @@
+﻿Experiment,DO-fronted,IO-fronted
+Trigram only,61.2%,82.1%
+DL only,61.1%,65.0%
+IS score only,57.7%,55.7%
+Adaptive LSTM only,74.2%,88.4%
+XGLM only,88.2%,91.9%
+Gemma-3 only,78.1%,80.5%
+All 5 (original paper),78.6%,92.6%
+LSTM → XGLM replacement,90.9%,94.2%
+LSTM → Gemma-3 replacement,81.3%,93.1%
